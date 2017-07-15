@@ -88,6 +88,24 @@ a {
   font-weight: 200;
   color: #3B4563;
 }
+.hiw-step {
+
+}
+.hiw-step-txt {
+  display: inline-grid;
+}
+.hiw-step-title {
+
+}
+.hiw-step-description {
+
+}
+.hiw-screenshot{
+  display: inline-grid;
+  box-shadow: 1px 1px 1px 1px #ddd;
+  border-radius: 10px;
+  width: 20vw;
+}
 /*About Us*/
 #second-nav {
   background-color: white;

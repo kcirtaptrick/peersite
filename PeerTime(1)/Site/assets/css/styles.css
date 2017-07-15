@@ -89,23 +89,39 @@ a {
   color: #3B4563;
 }
 .hiw-step {
-
+  display: table;
+  margin: 0 auto;
+  margin-top: 8vw;
 }
 .hiw-step-txt {
   display: inline-grid;
+  width: 21vw;
+  vertical-align: middle;
 }
 .hiw-step-title {
-
+  font-size: 2.1vw;
+  color: #3B4563;
+  font-weight: 700;
 }
 .hiw-step-description {
-
+  font-size: 1.3vw;
+  color: #999;
 }
 .hiw-screenshot{
   display: inline-grid;
-  box-shadow: 1px 1px 1px 1px #ddd;
-  border-radius: 10px;
+  box-shadow: 0vw 0vw 0.3vw 0.1vw #ddd;
+  border-radius: 1vw;
   width: 20vw;
 }
+.hiw-left-txt {
+  text-align: right;
+  margin-right: 10vw;
+}
+.hiw-right-txt {
+  text-align: left;
+  margin-left: 10vw;
+}
+/*#44B2E1*/
 /*About Us*/
 #second-nav {
   background-color: white;
@@ -159,4 +175,22 @@ a {
   font-size: 2vw;
   font-weight: 700;
   color: #3B4563;
+}
+#hiw-ad {
+  display: table;
+  margin: 0 auto;
+  margin-top: 10vw;
+  width: 50vw;
+  box-shadow: 0vw 0vw 0.1vw #555;
+}
+#hiw-ad-txt {
+  color: #44B2E1;
+  font-size: 2.2vw;
+  display: inline-flex;
+  width: 30vw;
+  margin-left: 3vw;
+}
+#hiw-ad-btn[role="button"] {
+  display: inline-flex;
+  /*color: white;*/
 }

@@ -194,3 +194,40 @@ a {
   display: inline-flex;
   /*color: white;*/
 }
+/*Home*/
+.home-signup-option {
+
+}
+.home-signup-option .active {
+
+}
+#home-top-signup {
+  border: solid #000;
+  border-width: 1px;
+  width: 75vw;
+  border-radius: 5px;
+}
+.home-top-signup-in {
+  display: inline-grid;
+}
+.home-top-signup-in label{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.8vw;
+  font-size: 0.8vw;
+}
+.home-top-signup-in input{
+  margin: 0;
+  padding: 0;
+  /*border: 0;*/
+  margin-top: -28px;
+  outline: none;
+  box-shadow: none;
+}
+.home-top-signup-in input:focus {
+  outline: none;
+}
+#home-middle-in {
+  margin-left: -5px;
+  margin-right: -5px;
+}

@@ -4,11 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template-PeerTime</title>
+    <meta name="google-signin-client_id" content="1017374221724-lb9pr8gtu34benpups6mr9e4hrqq419d.apps.googleusercontent.com">
+    <title>Landing Page - PeerTime</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
@@ -34,6 +39,44 @@
     </nav>
   </div>
   <p></p>
+  <header>
+    <div id="home-top-left">
+      <p>
+        <br>
+        <b>PeerTime</b> is an affordable tutoring
+        platform where students can
+        <b>teach</b>, <b>learn</b>, and <b>interact</b> with
+        their global peers.
+      </p>
+      <a href="howitworks.html" class="home-btn" id="home-hiw-btn">How it Works</a>
+    </div>
+    <div id="home-top-right">
+      <header>
+        User Sign Up
+      </header>
+      <div>
+        <button class="home-btn" id="home-tutor-btn">Tutor</button>
+        <button class="home-btn unselect" id="home-student-btn">Student</button>
+      </div>
+      <form id="home-signup">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Username">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="University">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <input type="text" placeholder="Promo Code">
+        <input type="submit" class="home-btn" value="Sign Up">
+      </form>
+      <div id="home-signup-or">
+        <div class="line"></div>
+        or sign up with
+        <div class="line"></div>
+      </div>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+  </header>
 </body>
 <footer>
   <div class="foot-block" style="margin-left: 10%;">
